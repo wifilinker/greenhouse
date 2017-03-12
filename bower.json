@@ -1,5 +1,6 @@
 {
   "name": "greenhouse",
   "dependencies": {
+    "jquery-mockjax": "2.2.1"
   }
 }

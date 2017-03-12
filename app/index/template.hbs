@@ -1,0 +1,11 @@
+{{latest-stats
+  stat=latestStat
+}}
+
+<button onclick={{perform giveWater}}>
+  {{#if giveWater.isIdle}}
+    Water Plants
+  {{else}}
+    Dropping water...
+  {{/if}}
+</button>
